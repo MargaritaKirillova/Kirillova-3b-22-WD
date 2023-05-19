@@ -1,4 +1,4 @@
-class студент:
+class Student:
     def __init__(self, name, surname, age, speciality):
         self.name = name
         self.surname = surname
@@ -6,9 +6,9 @@ class студент:
         self.speciality = speciality
 
     def student_info(self):
-        print(self.name, "-", self.surname,",", self.age, "лет,", self.speciality)
+        print(self.name, "-", self.surname, ",", self.age, "лет,", self.speciality)
 
 
-студент = студент("Юлия", "Абрамова", 19, "Журналистика")
+Student = Student("Юлия", "Абрамова", 19, "Журналистика")
 
-студент.student_info()
+Student.student_info()

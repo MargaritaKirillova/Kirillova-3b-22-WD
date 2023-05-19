@@ -1,4 +1,4 @@
-class автомобиль:
+class Car:
     def __init__(self, brand, model, year, price):
        self.brand = brand
        self.model = model
@@ -9,5 +9,5 @@ class автомобиль:
         print(self.brand, "-", self.model, ",", self.year, ",", self.price)
 
 
-автомобиль = автомобиль("Toyota", "Highlander", 2015, 2200000)
-автомобиль.car_info()
+Car = Car("Toyota", "Highlander", 2015, 2200000)
+Car.car_info()

@@ -1,4 +1,4 @@
-class кошка:
+class Cat:
     def __init__(self, name, age, color):
         self.name = name
         self.age = age
@@ -8,5 +8,5 @@ class кошка:
         print("кошка по имени", self.name, ",", self.age, "лет", ",", self.color, "цвет")
 
 
-кошка = кошка("Ласка", 5, "белый")
-кошка.cat_info()
+Cat = Cat("Ласка", 5, "белый")
+Cat.cat_info()
