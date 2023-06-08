@@ -11,4 +11,4 @@ def symbol_counter(string):
     return result
 
 
-print(symbol_counter(str(input('Введите текст:'))))
+print(symbol_counter(str(input('Введите текст: '))))
