@@ -12,6 +12,3 @@ my_list_last = copy[-1]
 # определяем порядковый номер наибольшего числа и выводим его вместе с самим числом
 last_index = my_list.index(my_list_last)
 print("Наибольшее число: ", my_list_last, ";", "Его порядковый номер: ", last_index)
-
-
-
